@@ -1,21 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Roboto, sans-serif;
 }
+/* HEADER SECTION */
 header {
     background: #1F2937;
     color: #F9FAF8;
     display: flex;
+    padding: 1rem 7rem;
+    padding-bottom: 5rem;
+    flex-direction: column;
 }
-header a, header p {
+header a, header p, button {
     color: #E5E7EB;
-    font-size: 16px;
+    font-size: 18px;
 }
 h1 {
-font-size: 38px;
+font-size: 48px;
 font-weight: 700;
 }
 .logo {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
 }
+button {
+    border-radius: 8px;
+    background: #3882F6;
+    padding: 0.5rem 2rem;
+    border: none;
+}
+.top, .bottom {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+/* .right, .left {
+    border: 1px solid yellow;
+} */
+.left {
+    width: 500px;
+    margin-right: 5rem;
+}
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.top {
+    margin-bottom: 5rem;
+}
+.left p {
+    margin-bottom: 1rem;
+}
+ul, a {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 1rem;
+    padding-top: 2px;
+}
+.right img {
+    width: 30rem;
+    height: 13rem;
+}
+/* END OF HEADER SECTION */
