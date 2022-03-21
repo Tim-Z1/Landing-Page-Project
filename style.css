@@ -66,5 +66,48 @@ ul, a {
 .right img {
     width: 30rem;
     height: 13rem;
+    border-radius: 20px;
 }
-/* END OF HEADER SECTION */
+
+/* SECTION ONE */
+.section-1 {
+    text-align: center;
+    padding: 3rem 10rem;
+    margin-bottom: 3rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.section-1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.section-1 .title {
+    font-weight: 800;
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 3rem;
+}
+/* SECTION TWO */
+.section-2 {
+    background: #E5E7EB;
+    font-size: 25px;
+    color: #1F2937;
+    font-style: italic;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote-text {
+    width: 600px;
+}
+.quote-author {
+    font-weight: bold;
+    text-align: right;
+}
+/* SECTION THREE */
+/* FOOTER */
